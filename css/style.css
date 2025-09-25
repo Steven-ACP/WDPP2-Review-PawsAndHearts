@@ -17,3 +17,17 @@ h2 {
 p {
   color: rgb(0, 0, 0);
 }
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--bd-violet-bg);
+  --bs-btn-hover-border-color: var(--bd-violet-bg);
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bd-violet-bg);
+  --bs-btn-active-border-color: var(--bd-violet-bg);
+}
