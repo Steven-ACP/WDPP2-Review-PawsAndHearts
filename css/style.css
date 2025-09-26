@@ -31,3 +31,8 @@ p {
   --bs-btn-active-bg: var(--bd-violet-bg);
   --bs-btn-active-border-color: var(--bd-violet-bg);
 }
+
+/* Stats icons sizing moved here instead of inline styles */
+.stats .bi {
+  font-size: 2.5rem;
+}

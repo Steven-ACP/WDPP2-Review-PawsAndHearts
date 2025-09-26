@@ -10,39 +10,37 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<link rel="stylesheet" href="css/style.css">
 <!--navbar-->
 
 <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="img/logos/nav-logo.jpg" alt="Paws & Hearts" width="140" height="24">
-
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Adopt a Pet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">About</a>
-                    </li>
-                    <button type="button" class="btn btn-primary">Donate Now</button>
-
-                    <div class="nav justify-content-end">
+                <img src="img/logos/nav-logo.jpg" alt="Paws & Hearts" width="120" height="24">
             </a>
         </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Adopt a Pet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">About</a>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary">Donate Now</button>
+            </li>
+        </ul>
     </nav>
     <!--main content-->
-
     <div class="container">
-
         <div class="col-7">
             <h1 class="display-1">Find Your Perfect Companion</h1>
             <p class="lead">Every pet deserves a loving home. Help us connect abandoned animals with caring families.
@@ -52,157 +50,189 @@
             <!--secondary content-->
             <div class="container text-center">
                 <div class="row">
-                    <div class="col1 col-md-4 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <img class="rounded float-start" src="img/splash-image.jpg" alt="taylor tee" />
                     </div>
-</body>
-<!--animals-->
-<div class="bg-white p-10 rounded shadow-sm my-10">
-    <h3> Featured Pets</h3>
-    <p>These adorable animals are looking for their forever homes. Could one of them be perfect for your family?</p>
+                </div>
+            </div>
+        </div>
+        <!--animals-->
+        <div class="bg-white p-5 rounded shadow-sm my-5">
+            <h4> Featured Pets</h4>
+            <p>These adorable animals are looking for their forever homes. Could one of them be perfect for your family?
+            </p>
 
-    <div class="card mb-3">
-        <img src="img/featured/puppy.jpg" class="card-img-top" alt="Animal 1">
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/featured/puppy.jpg" class="card-img-top" alt="Buddy, 2 year old Beagle">
+                        <div class="card-body">
+                            <h5 class="card-title">Buddy</h5>
+                            <p class="card-text"> 2 years old - Beagle - Male</p>
+                            <p class="card-text"> Energetic and friendly, loves playing fetch and meeting new people</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="card-body">
-            <h5 class="card-title">Buddy</h5>
-            <p class="card-text"> 2 years old - Beagle - Male</p>
-            <p class="card-text"> Energetic and friendly, loves playing fetch and meeting new people</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/featured/kitty02.jpg" class="card-img-top" alt="Luna, 3 year old Persian">
+                        <div class="card-body">
+                            <h5 class="card-title">Luna</h5>
+                            <p class="card-text"> 3 years old - Persian - Female</p>
+                            <p class="card-text"> Calm and affectionate, perfect for a quiet household</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/featured/kitty01.jpg" class="card-img-top" alt="Milo, 6 month old Tabby">
+                        <div class="card-body">
+                            <h5 class="card-title">Milo</h5>
+                            <p class="card-text"> 6 month old - Tabby - Male</p>
+                            <p class="card-text"> Playful kitten who loves toys and climbing cat trees</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--otherstufssthatidkwhattheyarebuttheythere-->
+        <div class="d-flex justify-content-around text-center my-4 stats">
+            <div class="stat-item">
+                <i class="bi bi-heart-fill text-danger" style="font-size:2.5rem;"></i>
+                <h2 class="mt-2">1,247</h2>
+                <h4>Animals Rescued</h4>
+            </div>
+
+            <div class="stat-item">
+                <i class="bi bi-house-door-fill text-primary" style="font-size:2.5rem;"></i>
+                <h2 class="mt-2">892</h2>
+                <h4>Successful Adoptions</h4>
+            </div>
+
+            <div class="stat-item">
+                <i class="bi bi-people-fill text-success" style="font-size:2.5rem;"></i>
+                <h2 class="mt-2">156</h2>
+                <h4>Volunteer Helpers</h4>
+            </div>
+        </div>
+        <!--adopt more pets-->
+        <div class="bg-white p-5 rounded shadow-sm my-5">
+            <h4> Adopt a Pet</h4>
+            <p>Browse our available animals and find your new best friend. Each pet has been health-checked and is ready
+                for
+                adoption</p>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/logos/dog01.jpg" class="card-img-top" alt="Max, 4 year old Labrador">
+                        <div class="card-body">
+                            <h5 class="card-title">Max</h5>
+                            <p class="card-text"> 4 years old - Labrador - Male</p>
+                            <p class="card-text"> Great with kids, house-trained, loves walks and cuddles</p>
+                            <a href="#" class="btn btn-primary">Meet Max</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/logos/kitty04.jpg" class="card-img-top" alt="Bella, 2 year old Siamese">
+                        <div class="card-body">
+                            <h5 class="card-title">Bella</h5>
+                            <p class="card-text"> 2 years old - Siamese - Female</p>
+                            <p class="card-text"> Independent, loves sunbathing, good with other cats</p>
+                            <a href="#" class="btn btn-primary">Meet Bella</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/logos/dog02.jpg" class="card-img-top" alt="Charlie, 3 year old Border Collie">
+                        <div class="card-body">
+                            <h5 class="card-title">Charlie</h5>
+                            <p class="card-text"> 3 years old - Border Collie - Male</p>
+                            <p class="card-text"> Highly intelligent, needs active family, loves frisbee</p>
+                            <a href="#" class="btn btn-primary">Meet Charlie</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/logos/kitty03.jpg" class="card-img-top" alt="Ginger, 1 year old Tabby">
+                        <div class="card-body">
+                            <h5 class="card-title">Ginger</h5>
+                            <p class="card-text"> 1 year old - Tabby - Female</p>
+                            <p class="card-text"> Playful, loves toys, perfect for first-time cat owners</p>
+                            <a href="#" class="btn btn-primary">Meet Ginger</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!--contact us-->
+    <div class="bg-white p-5 rounded shadow-sm my-5">
+        <h4>Contact Us</h4>
+        <p>Have questions about adoption or want to volunteer? We'd love to hear from you!</p>
 
-    <div class="card mb-3">
-        <img src="img/featured/kitty02.jpg" class="card-img-top" alt="Animal 1">
-        <div class="card-body">
-            <h5 class="card-title">Luna</h5>
-            <p class="card-text"> 3 years old - Persian - Female</p>
-            <p class="card-text"> Calm and affectionate, perfect for a quiet household</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+        <div class="card mb-3">
+            <div class="card-body">
+                <label for="fullname">Full Name:</label>
+                <input id="fullname" type="text" name="fullname" class="form-control mb-2" />
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" class="form-control mb-2" />
+
+                <label for="phone">Phone:</label>
+                <input id="phone" type="tel" name="phone" class="form-control mb-2" />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="form-control mb-2"></textarea>
+
+                <button type="button" class="btn btn-primary">Send Message</button>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3>Visit Our Shelter</h3>
+                <p>123 Animal Way, Pet City, PC 12345</p>
+                <p>(555) 123-PETS</p>
+                <p>info@pawsandhearts.org</p>
+            </div>
+        </div>
+
+        <div class="card mb-0">
+            <div class="card-body">
+                <h3>Opening Hours</h3>
+                <p>Monday-Friday: 9:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                <p>Sunday: 12:00 PM - 4:00 PM</p>
+            </div>
         </div>
     </div>
-
-    <div class="card mb-0">
-        <img src="img/featured/kitty01.jpg" class="card-img-top" alt="Animal 1">
-        <div class="card-body">
-            <h5 class="card-title">Milo</h5>
-            <p class="card-text"> 6 month old - Tabby - Male</p>
-            <p class="card-text"> Playful kitten who loves toys and climbing cat trees</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-    </div>
-</div>
-<!--otherstufssthatidkwhattheyarebuttheythere-->
-
-<div class="d-flex justify-content-around text-center my-4 stats">
-    <div class="stat-item">
-        <i class="bi bi-heart-fill text-danger" style="font-size:2.5rem;"></i>
-        <h2 class="mt-2">1,247</h2>
-        <h4>Animals Rescued</h4>
-    </div>
-
-    <div class="stat-item">
-        <i class="bi bi-house-door-fill text-primary" style="font-size:2.5rem;"></i>
-        <h2 class="mt-2">892</h2>
-        <h4>Successful Adoptions</h4>
-    </div>
-
-    <div class="stat-item">
-        <i class="bi bi-people-fill text-success" style="font-size:2.5rem;"></i>
-        <h2 class="mt-2">156</h2>
-        <h4>Volunteer Helpers</h4>
-    </div>
-</div>
-<!--adopt more pets-->
-<h2> Adopt a Pet</h2>
-<p>Browse our available animals and find your new best friend. Each pet has been health-checked and is ready for
-    adoption</p>
-<div class="card">
-    <img src="img/logos/dog01.jpg" class="card-img-top" alt="Animal 1">
-    <div class="card-body">
-        <h5 class="card-title">Max</h5>
-        <p class="card-text"> 4 years old - Labrador - Male</p>
-        <p class="card-text"> Great with kids, house-trained, loves walks and cuddles</p>
-        <a href="#" class="btn btn-primary">Meet Max</a>
-    </div>
-</div>
-
-<div class="card">
-    <img src="img/logos/kitty04.jpg" class="card-img-top" alt="Animal 1">
-    <div class="card-body">
-        <h5 class="card-title">Bella</h5>
-        <p class="card-text"> 2 years old - Siamese - Female</p>
-        <p class="card-text"> Independent, loves sunbathing, good with other cats</p>
-        <a href="#" class="btn btn-primary">Meet Bella</a>
-    </div>
-</div>
-<div class="card">
-    <img src="img/logos/dog02.jpg" class="card-img-top" alt="Animal 1">
-    <div class="card-body">
-        <h5 class="card-title">Charlie</h5>
-        <p class="card-text"> 3 years old - Border Collie - Male</p>
-        <p class="card-text"> Highly intelligent, needs active family, loves frisbee</p>
-        <a href="#" class="btn btn-primary">Meet Charlie</a>
-    </div>
-</div>
-<div class="card">
-    <img src="img/logos/kitty03.jpg" class="card-img-top" alt="Animal 1">
-    <div class="card-body">
-        <h5 class="card-title">Ginger</h5>
-        <p class="card-text"> 1 year old - Tabby - Female</p>
-        <p class="card-text"> Playful, loves toys, perfect for first-time cat owners</p>
-        <a href="#" class="btn btn-primary">Meet Ginger</a>
-    </div>
-</div>
-<!--contact us-->
-<h2>Contact Us</h2>
-<p>Have questions about adoption or want to volunteer? We'd love to hear from you!</p>
-</div>
-<div class="card">
-    <div class="card-body">
-        Full Name: <input type="text" name="fullname" /><br />
-        Email: <input type="email" name="email" /><br />
-        Phone: <input type="tel" name="phone" /><br />
-        Message: <textarea name="message"></textarea><br />
-        <button type="button" class="btn btn-primary">Send Message</button>
-    </div>
-</div>
-<div class="card">
-    <div class="card-body">
-        <h3>Visit Our Shelter</h3>
-        <p>123 Animal Way, Pet City, PC 12345</p>
-        <p>(555) 123-PETS</p>
-        <p>info@pawsandhearts.org</p>
-    </div>
-</div>
-<div class="card">
-    <div class="card-body">
-        <h3>Opening Hours</h3>
-        <p>Monday-Friday: 9:00 AM - 6:00 PM</p>
-        <p>Saturday: 9:00 AM - 4:00 PM</p>
-        <p>Sunday: 12:00 PM - 4:00 PM</p>
-    </div>
-</div>
-<!--bottomstuff-->
-
-
-
-<footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3" style="background-color: rgba(55, 65, 81);">
-
-
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logos/nav-logo.jpg" alt="Paws & Hearts" width="140" height="24">
+    <!--bottomstuff-->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(55, 65, 81, 1);">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logos/nav-logo.jpg" alt="Paws & Hearts" width="140" height="24">
+                </a>
                 <p class="navbar-text">Connecting loving families with animals in need since 2010.</p>
-            </a>
-            </a>
+            </div>
         </div>
-        </nav>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
